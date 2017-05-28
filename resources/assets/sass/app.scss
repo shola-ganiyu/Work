@@ -1,0 +1,22 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.btn-fav{
+	border:none;
+	background:none;
+}
+
+.not-fav, .fav:hover{
+	color:black;
+}
+
+.not-fav:hover, .fav{
+	color:red;
+}
